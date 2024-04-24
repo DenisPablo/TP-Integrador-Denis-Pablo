@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+#bar {
+  background: rgb(63, 63, 63) !important;
+}
+
+#bar h1 {
+  color: white;
+  text-align: left;
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#home {
+  width: 60px;
+  height: 60px;
+  float: left;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bolder;
+}
+
+.descripcionLarga {
+  display: none;
+}
+
+.descripcionCorta {
+  display: block;
+}
+
+.producto {
+  border: 2px solid #ccc; /* Borde sólido de 2px de color gris claro */
+  border-radius: 10px; /* Bordes redondeados */
+  padding: 15px; /* Espacio interno de 15px */
+  margin-top: 20px; /* Margen superior de 20px */
+  background-color: #f9f9f9; /* Color de fondo */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.producto p {
+  font-size: 1rem; /* Tamaño de fuente del texto */
+  margin-bottom: 5px; /* Margen inferior del texto */
+}
+
+.producto img {
+  border-style: solid;
+  border-radius: 10px;
+}
+
+.producto h2 {
+  word-wrap: break-word;
+}
+
+#carrito {
+  width: 50px;
+  height: 50px;
+}
+
+.oferta {
+  position: absolute;
+  top: 10px; /* ajusta esta posición según sea necesario */
+  right: 10px; /* ajusta esta posición según sea necesario */
+  background-color: red; /* color de fondo de la banda de oferta */
+  color: white; /* color del texto */
+  padding: 5px 10px; /* padding interno */
+  z-index: 1; /* asegura que esté encima de la imagen */
+}
+
+.alerta {
+  display: none;
+}
+
+.alerta.visible {
+  display: block;
+  opacity: 1; /* Hace que la alerta sea visible */
+}
